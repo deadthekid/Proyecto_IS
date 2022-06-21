@@ -12,7 +12,7 @@ public class ServiceDepartamento {
 	RepositoryDepartamento repositoryDepartamento;
 	
 	
-	public void crear(Departamento departamento) {
+	public void crearDepartamento(Departamento departamento) {
 		
 		this.repositoryDepartamento.save(departamento);
 		
